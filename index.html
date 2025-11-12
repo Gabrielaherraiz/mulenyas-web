@@ -66,11 +66,17 @@
         <input type="text" name="name" placeholder="Nombre" required>
         <input type="email" name="email" placeholder="Email" required>
         <textarea name="message" rows="6" placeholder="Cuéntanos" required></textarea>
-        <label><input type="checkbox" name="gdpr" required> Acepto la política de privacidad</label>
-        <div class="cta" style="margin-top:6px;">
-          <button type="submit">Enviar</button>
-          <small class="muted">No compartimos tus datos con terceros.</small>
-        </div>
+        <div style="margin:12px 0;">
+        <label style="display:flex;align-items:center;gap:8px;font-size:0.95rem;">
+          <input type="checkbox" name="gdpr" required style="transform:scale(1.1);cursor:pointer;">
+          <span>Acepto la política de privacidad</span>
+        </label>
+      </div>
+      
+      <div class="cta" style="margin-top:6px;align-items:center;">
+        <button type="submit">Enviar</button>
+        <small class="muted" style="margin-left:8px;">No compartimos tus datos con terceros.</small>
+      </div>
       </form>
     </section>
   </main>
