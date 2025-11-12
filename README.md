@@ -1,5 +1,5 @@
 
-# Muleñas — web estática (GitHub Pages)
+# Mulenyas — web estática (GitHub Pages)
 
 ## Estructura
 - `index.html` — Home con hero, lookbook, manifiesto y contacto.
