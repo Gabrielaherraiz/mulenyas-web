@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Muleñas — Raíces que inspiran pasos nuevos</title>
+  <meta name="description" content="Muleñas: tradición mediterránea y diseño cuidado. Lookbook, manifiesto y contacto.">
+  <meta property="og:title" content="Muleñas">
+  <meta property="og:description" content="Alpargatas artesanales. Belleza que permanece.">
+  <meta property="og:image" content="/img/hero.png">
+  <link rel="icon" href="/img/hero.png">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <div class="container nav">
+      <div class="brand">Muleñas</div>
+      <nav class="links">
+        <a href="#lookbook">Lookbook</a>
+        <a href="#manifiesto">Manifiesto</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div>
+        <span class="tag">Nueva colección · SS25</span>
+        <h1>Raíces que inspiran pasos nuevos</h1>
+        <p class="lead">Artesanía española, materiales honestos y una estética mediterránea que se siente atemporal.</p>
+        <div class="cta">
+          <a class="btn" href="#lookbook">Ver lookbook</a>
+          <a class="btn btn-ghost" href="#contacto">Contacto</a>
+        </div>
+      </div>
+      <img src="/img/hero.png" alt="Muleñas — estética mediterránea, hero">
+    </section>
+
+    <section id="lookbook" class="section">
+      <h2>Lookbook</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="/img/hero.png" alt="Modelo 01">
+          <p>Modelo 01 · Esparto y lino</p>
+        </div>
+        <div class="card">
+          <img src="/img/hero.png" alt="Modelo 02">
+          <p>Modelo 02 · Puntada tradicional</p>
+        </div>
+        <div class="card">
+          <img src="/img/hero.png" alt="Modelo 03">
+          <p>Modelo 03 · Color terracota</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="manifiesto" class="section">
+      <h2>Manifiesto</h2>
+      <p>Creemos en conservar lo que importa, en el respeto por los oficios y en un diseño que acompaña — no que caduca. Cada par se fabrica en talleres locales con materiales seleccionados por su calidad y su tacto, para que te dure y te represente.</p>
+    </section>
+
+    <section id="contacto" class="section">
+      <h2>Contacto / Prensa</h2>
+      <form class="form" action="https://formspree.io/f/XXXXXXXX" method="POST">
+        <input type="text" name="name" placeholder="Nombre" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="message" rows="6" placeholder="Cuéntanos" required></textarea>
+        <label><input type="checkbox" name="gdpr" required> Acepto la política de privacidad</label>
+        <div class="cta" style="margin-top:6px;">
+          <button type="submit">Enviar</button>
+          <small class="muted">No compartimos tus datos con terceros.</small>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">© Muleñas · {year}</div>
+  </footer>
+  <script>
+    // Actualiza el año automáticamente
+    document.querySelector('footer .container').innerHTML = '© Muleñas · ' + new Date().getFullYear();
+  </script>
+</body>
+</html>
