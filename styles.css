@@ -15,7 +15,7 @@ header{position:sticky;top:0;background:rgba(248,245,239,.8);backdrop-filter:sat
 .nav .links a{margin-left:18px;opacity:.8}
 .nav .links a:hover{opacity:1}
 
-.hero{min-height:70vh;display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;align-items:center;padding:48px 0}
+.hero{min-height:100vh;display:grid;grid-template-columns:1.1fr 0.9fr;gap:28px;align-items:center;padding:48px 0}
 .hero img{width:100%;height:auto;border-radius:16px;box-shadow:0 6px 30px rgba(0,0,0,.08)}
 .tag{display:inline-block;font-size:.85rem;letter-spacing:.3px;background:#eee2d9;color:#5a3b2e;padding:6px 10px;border-radius:999px;margin-bottom:12px}
 h1{font-size:clamp(36px,5vw,56px);margin:10px 0 16px}
